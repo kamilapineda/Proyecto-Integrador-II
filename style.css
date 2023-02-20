@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+body{
+    background-color:rgb(241, 241, 241);
+}
+
+.Container{
+    height: 700px;
+    width: 1000px;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 20px #000000;
+}
+
+.boton {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.form{
+    padding: 190px 100px;
+    width: 50%;
+    text-align: center;
+    background-color: white}
+
+.form h1 {
+    margin-bottom: 30px;
+    font-size: 50px;
+    color: #C88A5B;
+}
+
+
+.infoPagina{
+    padding: 150px 50px;
+    width: 50%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(OP2.jpeg);
+}
+
+.infoPagina h1 {
+    margin-bottom: 30px;
+    font-size: 60px;
+    color: white;
+}
+
+.infoPagina hr {
+    margin-left: 170px;
+    margin-bottom: 30px;
+    width: 200px;
+    border: 1px solid #ffffff;
+}
+
+.boton input{
+    background-color: rgb(241, 241, 241);
+    margin-bottom: 20px;
+    border-style: solid;
+    outline: none;
+    border-width: 0px 0px 3px 0px;
+    border-color: #C88A5B;
+    padding: 15px 35px;
+
+}
+
+.boton button{
+    color: #ffffff;
+    border-radius: 50px;
+    border: 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #C88A5B;
+    padding: 10px;
+
+}
