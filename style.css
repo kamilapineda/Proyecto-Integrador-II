@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;   
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    
 }
 
 body{
@@ -35,7 +36,7 @@ body{
 .form h1 {
     margin-bottom: 30px;
     font-size: 50px;
-    color: #C88A5B;
+    color: #838307;
 }
 
 
@@ -45,7 +46,8 @@ body{
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-image: url(OP2.jpeg);
+    background-image : url(op4.avif);
+    
 }
 
 .infoPagina h1 {
@@ -67,7 +69,7 @@ body{
     border-style: solid;
     outline: none;
     border-width: 0px 0px 3px 0px;
-    border-color: #C88A5B;
+    border-color: #838307;
     padding: 15px 35px;
 
 }
@@ -78,7 +80,7 @@ body{
     border: 0;
     font-size: 15px;
     text-transform: uppercase;
-    background-color: #C88A5B;
+    background-color: #838307;
     padding: 10px;
 
 }
